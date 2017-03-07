@@ -269,13 +269,13 @@
         peanut.data.sort([{'column': 0}]);
         peanut.chart.draw(peanut.data, peanut.chartOptions);
       }
-      window.onresize = function() {
+      /*window.onresize = function() {
         for (const peanut of peanuts) {
           peanut.chartOptions.width = document.body.clientWidth;
           peanut.chartOptions.height = (window.innerHeight - 224) / 2;
           peanut.chart.draw(peanut.data, peanut.chartOptions);
         }
-      }
+      }*/
     </script>
   </body>
 </html>
